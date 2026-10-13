@@ -5,7 +5,7 @@
 
 # --- 1. CONFIGURATION ---
 # IMPORTANT: Replace this placeholder link with your actual hosted ZIP file URL
-$DownloadUrl   = "https://your-domain-or-github.com"
+$DownloadUrl   = "https://github.com/flerkinman/optimise/releases/download/potoato/OptimiserTool.zip"
 
 $ZipPath       = "$env:TEMP\optimise_archive.zip"
 $ExtractFolder = "$env:TEMP\OptimiserTool"
