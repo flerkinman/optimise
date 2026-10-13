@@ -4,7 +4,7 @@ $localPath = "$env:TEMP\my-program.exe"
 Write-Host "Downloading application components..." -ForegroundColor Cyan
 
 # Download the compiled .exe from GitHub Releases
-Invoke-WebRequest -Uri "https://github.com" -OutFile $localPath
+Invoke-WebRequest -Uri "https://github.com/flerkinman/optimise/releases/download/potoato/optimiser.exe" -OutFile $localPath
 
 Write-Host "Launching program..." -ForegroundColor Green
 
